@@ -18,21 +18,10 @@
 		EAE728831A11B8C100EB2CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE728811A11B8C100EB2CEF /* Main.storyboard */; };
 		EAE728851A11B8C100EB2CEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE728841A11B8C100EB2CEF /* Images.xcassets */; };
 		EAE728881A11B8C100EB2CEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE728861A11B8C100EB2CEF /* LaunchScreen.xib */; };
-		EAE728941A11B8C100EB2CEF /* PFCustomWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE728931A11B8C100EB2CEF /* PFCustomWebViewTests.m */; };
 		EAE728A01A11B91600EB2CEF /* PFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE7289F1A11B91600EB2CEF /* PFWebViewController.m */; };
 		EAE728A21A11B93900EB2CEF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE728A11A11B93900EB2CEF /* Social.framework */; };
 		EAE728A41A11B93E00EB2CEF /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE728A31A11B93E00EB2CEF /* Accounts.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EAE7288E1A11B8C100EB2CEF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EAE7286C1A11B8C100EB2CEF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAE728731A11B8C100EB2CEF;
-			remoteInfo = PFCustomWebView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EA5AF0971A12E0B800FF7E75 /* PFWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFWebView.h; sourceTree = "<group>"; };
@@ -55,9 +44,6 @@
 		EAE728821A11B8C100EB2CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAE728841A11B8C100EB2CEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EAE728871A11B8C100EB2CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EAE7288D1A11B8C100EB2CEF /* PFCustomWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PFCustomWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAE728921A11B8C100EB2CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAE728931A11B8C100EB2CEF /* PFCustomWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFCustomWebViewTests.m; sourceTree = "<group>"; };
 		EAE7289E1A11B91600EB2CEF /* PFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFWebViewController.h; sourceTree = "<group>"; };
 		EAE7289F1A11B91600EB2CEF /* PFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFWebViewController.m; sourceTree = "<group>"; };
 		EAE728A11A11B93900EB2CEF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -71,13 +57,6 @@
 			files = (
 				EAE728A41A11B93E00EB2CEF /* Accounts.framework in Frameworks */,
 				EAE728A21A11B93900EB2CEF /* Social.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAE7288A1A11B8C100EB2CEF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				EAE728761A11B8C100EB2CEF /* PFCustomWebView */,
-				EAE728901A11B8C100EB2CEF /* PFCustomWebViewTests */,
 				EAE728A51A11B94300EB2CEF /* Frameworks */,
 				EAE728751A11B8C100EB2CEF /* Products */,
 			);
@@ -133,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				EAE728741A11B8C100EB2CEF /* PFCustomWebView.app */,
-				EAE7288D1A11B8C100EB2CEF /* PFCustomWebViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,23 +136,6 @@
 			children = (
 				EAE728781A11B8C100EB2CEF /* Info.plist */,
 				EAE728791A11B8C100EB2CEF /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EAE728901A11B8C100EB2CEF /* PFCustomWebViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				EAE728931A11B8C100EB2CEF /* PFCustomWebViewTests.m */,
-				EAE728911A11B8C100EB2CEF /* Supporting Files */,
-			);
-			path = PFCustomWebViewTests;
-			sourceTree = "<group>";
-		};
-		EAE728911A11B8C100EB2CEF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAE728921A11B8C100EB2CEF /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -209,24 +169,6 @@
 			productReference = EAE728741A11B8C100EB2CEF /* PFCustomWebView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EAE7288C1A11B8C100EB2CEF /* PFCustomWebViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EAE7289A1A11B8C100EB2CEF /* Build configuration list for PBXNativeTarget "PFCustomWebViewTests" */;
-			buildPhases = (
-				EAE728891A11B8C100EB2CEF /* Sources */,
-				EAE7288A1A11B8C100EB2CEF /* Frameworks */,
-				EAE7288B1A11B8C100EB2CEF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EAE7288F1A11B8C100EB2CEF /* PBXTargetDependency */,
-			);
-			name = PFCustomWebViewTests;
-			productName = PFCustomWebViewTests;
-			productReference = EAE7288D1A11B8C100EB2CEF /* PFCustomWebViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,10 +180,6 @@
 				TargetAttributes = {
 					EAE728731A11B8C100EB2CEF = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					EAE7288C1A11B8C100EB2CEF = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = EAE728731A11B8C100EB2CEF;
 					};
 				};
 			};
@@ -259,7 +197,6 @@
 			projectRoot = "";
 			targets = (
 				EAE728731A11B8C100EB2CEF /* PFCustomWebView */,
-				EAE7288C1A11B8C100EB2CEF /* PFCustomWebViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,13 +209,6 @@
 				EAE728831A11B8C100EB2CEF /* Main.storyboard in Resources */,
 				EAE728881A11B8C100EB2CEF /* LaunchScreen.xib in Resources */,
 				EAE728851A11B8C100EB2CEF /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAE7288B1A11B8C100EB2CEF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,23 +231,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAE728891A11B8C100EB2CEF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAE728941A11B8C100EB2CEF /* PFCustomWebViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EAE7288F1A11B8C100EB2CEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EAE728731A11B8C100EB2CEF /* PFCustomWebView */;
-			targetProxy = EAE7288E1A11B8C100EB2CEF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EAE728811A11B8C100EB2CEF /* Main.storyboard */ = {
@@ -435,40 +349,6 @@
 			};
 			name = Release;
 		};
-		EAE7289B1A11B8C100EB2CEF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PFCustomWebViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PFCustomWebView.app/PFCustomWebView";
-			};
-			name = Debug;
-		};
-		EAE7289C1A11B8C100EB2CEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PFCustomWebViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PFCustomWebView.app/PFCustomWebView";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -486,15 +366,6 @@
 			buildConfigurations = (
 				EAE728981A11B8C100EB2CEF /* Debug */,
 				EAE728991A11B8C100EB2CEF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EAE7289A1A11B8C100EB2CEF /* Build configuration list for PBXNativeTarget "PFCustomWebViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAE7289B1A11B8C100EB2CEF /* Debug */,
-				EAE7289C1A11B8C100EB2CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

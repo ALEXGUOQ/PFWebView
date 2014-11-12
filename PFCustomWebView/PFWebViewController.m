@@ -37,7 +37,7 @@
 -(void)initVariables
 {
     //insert here the website that you want to download
-    strUrlWebsite=[NSString stringWithFormat:@"http://www.google.it"];
+    strUrlWebsite=[NSString stringWithFormat:@"http://www.twitter.com/goreste"];
 }
 
 
